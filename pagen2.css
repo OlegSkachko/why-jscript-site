@@ -1,0 +1,83 @@
+* {
+    background: white;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/js32.png');
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;       
+    user-select: none;  
+}
+
+.text {
+ width: 725px;
+ height: 203px;
+ font-size: 40px ;
+ font-style: normal;
+ font-weight: bold;
+ z-index: 20;
+ -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;       
+    user-select: none;  
+}
+
+.jstext {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 50px;
+    color:  #E5E5E5;
+    filter: blur(30px);
+    transition-duration: 0.3s;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;       
+    user-select: none;  
+}
+
+ .jstext:hover {
+    filter: none;
+    color: black
+}
+
+.circle1 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 475px;
+    height: 475px;
+    opacity: 80%;
+}
+
+.circle2 {
+    position: absolute;
+    top: 0%;
+    left: 51%;
+    width: 676px;
+    height: 676px;
+}
+
